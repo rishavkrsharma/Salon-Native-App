@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "SalonApp",
+    "slug": "SalonApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "SalonApp"
+}
