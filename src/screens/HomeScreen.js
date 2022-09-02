@@ -17,7 +17,7 @@ import Fontisto from "react-native-vector-icons/Fontisto";
 import homecarouselfeed from "../../assets/data/homecarouselfeed";
 import HomeSCreenCarousel from "../components/HomeScreenCarousel";
 
-const HomeScreen = () => {
+const HomeScreen = ({navigation}) => {
   const width = useWindowDimensions().width;
 
   return (
@@ -35,7 +35,7 @@ const HomeScreen = () => {
           {/* SearchBar */}
           <Pressable
             style={styles.searchbutton}
-            onPress={() => navigation.navigate("Destination Search")}
+            onPress={() => navigation.navigate("Location Search")}
           >
             <Fontisto name="search" size={25} color={"red"} />
             <Text style={styles.searchbuttonText}> Search Location</Text>
